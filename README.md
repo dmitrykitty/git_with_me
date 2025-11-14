@@ -19,3 +19,10 @@ Everything here is based on the excellent [Learn Git course from boot.dev](https
   * Staging files with `git add`;
   * Committing changes with `git commit`;
   * Viewing history with `git log`;
+
+### [**1.3 Git Internals**](./03_internals.md)
+  * How Git stores data: **blobs** (content) & **trees** (filenames);
+  * What a **commit** object is (a snapshot + parent link);
+  * Peeking inside the `.git` directory;
+  * Using `git cat-file` to inspect raw objects;
+  * How Git's snapshot model saves space (deduplication);
