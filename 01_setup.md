@@ -36,10 +36,10 @@ Before setting anything, you can check if a name and email are already configure
 
 ```bash
 # Check the currently set user name
-git config get user.name
+git config user.name
 
 # Check the currently set user email
-git config get user.email
+git config user.email
 
 # Alternative: List all settings and filter for "name"
 # git config --list | grep name
