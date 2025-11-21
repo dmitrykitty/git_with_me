@@ -26,3 +26,34 @@ Everything here is based on the excellent [Learn Git course from boot.dev](https
   * Peeking inside the `.git` directory;
   * Using `git cat-file` to inspect raw objects;
   * How Git's snapshot model saves space (deduplication);
+
+### [**1.4 Configuration**](./04_config.md)
+  * Config scopes: `--global` vs `--local`;
+  * Viewing settings with `git config --list`;
+  * Adding, getting, and deleting configuration keys;
+  * The Hierarchy: How local settings override global ones;
+
+### [**1.5 Branching**](./05_branching.md)
+  * What is a branch? (A lightweight movable pointer);
+  * Creating and switching branches with `git switch`;
+  * Renaming `master` to `main`;
+  * Understanding `HEAD` and detached states;
+  * Viewing decorations in `git log`;
+
+### [**1.6 Merging**](./06_merge.md)
+  * Combining diverged history with `git merge`;
+  * Understanding Merge Commits (two parents);
+  * Fast-Forward merges (linear history);
+  * Handling the default editor (Vim) during merges;
+
+### [**1.7 Rebasing**](./07_rebase.md)
+  * Rewriting history to move a branch base;
+  * How `git rebase` works internally (replay commits);
+  * The philosophy: Merge ("The Documentary") vs. Rebase ("The Storybook");
+  * The Golden Rule: Never rebase public branches;
+
+### [**1.8 Reset & Recovery**](./08_reset.md)
+  * Undoing changes with `git reset`;
+  * `--soft`: Undo the commit, keep the work staged;
+  * `--hard`: Delete the commit and the work (destructive);
+  * Recovering "lost" commits using `git reflog`;
