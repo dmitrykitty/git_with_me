@@ -57,3 +57,18 @@ Everything here is based on the excellent [Learn Git course from boot.dev](https
   * `--soft`: Undo the commit, keep the work staged;
   * `--hard`: Delete the commit and the work (destructive);
   * Recovering "lost" commits using `git reflog`;
+
+### [**1.9 Remote Repositories**](./09_remote.md)
+  * Understanding remotes (just another folder);
+  * `origin` vs `upstream`;
+  * Adding a remote with `git remote add`;
+  * The difference between `git fetch` (download) and `git merge` (update);
+
+### [**1.10 GitHub & Collaboration**](./10_github.md)
+  * Git vs. GitHub (Tool vs. Service);
+  * HTTPS vs. SSH keys;
+  * Pushing code with `git push` and setting upstream (`-u`);
+  * Pulling strategies (`pull.rebase false`);
+  * The Professional Workflow: Branch -> Push -> **Pull Request** -> Merge;
+
+
